@@ -29,6 +29,7 @@ namespace @out
         {
             InitializeComponent();
         }
+        //这个是测试注释
         private const string conn_mes = "Server=10.10.210.130;user id=sa;password=Aa123456;initial catalog=UFTData545228_900000;Connect Timeout=30;Persist Security Info=True;Current Language=Simplified Chinese;pooling=false";
         private const string constring = "data source=172.17.41.196;port=3306;database=yongyou_zjedu_st_2025;user id=st;password=123456;pooling=true;charset=utf8;SslMode=None;";
         //private const string constring = "data source=localhost;port=3306;database=test;user id=root;password=123456;pooling=true;charset=utf8;";
