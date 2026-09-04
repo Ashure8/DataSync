@@ -1,0 +1,77 @@
+# ============================================
+# .gitignore — 食堂平台导入导出工具 (C# / WinForms)
+# ============================================
+
+# ---------- 编译输出 ----------
+[Bb]in/
+[Oo]bj/
+*.exe
+*.dll
+*.pdb
+*.mdb
+*.cache
+*.ilk
+*.exp
+*.iobj
+*.ipdb
+
+# ---------- Visual Studio 缓存 / 用户设置 ----------
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+*.userprefs
+_ReSharper*/
+[Rr]eSharper*/
+*.DotSettings.user
+*.csproj.user
+
+# ---------- NuGet 包 ----------
+# 本项目使用 packages.config，可通过 `nuget restore` 恢复
+packages/
+
+# ---------- WorkBuddy 项目数据（本地工具数据，不纳入版本库） ----------
+.workbuddy/
+
+# ---------- 测试结果 ----------
+[Tt]est[Rr]esult*/
+[Bb]uild[Ll]og.*
+*_i.c
+*_p.c
+*_h.h
+*.ilk
+*.meta
+*.obj
+*.pch
+*.pgc
+*.pgd
+*.rsp
+*.sbr
+*.tlb
+*.tli
+*.tlh
+*.tmp
+*.tmp_proj
+*.log
+*.vspscc
+*.vssscc
+.builds
+
+# ---------- 发布 / 部署产物 ----------
+[Pp]ublish/
+*.publishsettings
+*.pfx
+*.snk
+!*.snk.sign
+
+# ---------- 临时文件 ----------
+*.tmp
+*~
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# ---------- 备份 / 日志 ----------
+*.bak
+*.orig
