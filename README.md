@@ -155,8 +155,8 @@ MySQL（yongyou_zjedu_st_2025）
 
 | 变量 | 数据库 | 用途 |
 | --- | --- | --- |
-| `conn_mes` | SQL Server `10.10.210.130` / 库 `UFTData545228_900000` | 导出数据源（用友 U8） |
-| `constring` | MySQL `172.17.41.196` / 库 `yongyou_zjedu_st_2025` | 导入目标库 |
+| `conn_mes` | SQL Server `127.0.0.1` / 库 `UFTData545228_900000` | 导出数据源（用友 U8） |
+| `constring` | MySQL `127.0.0.1` / 库 `yongyou_zjedu_st_2025` | 导入目标库 |
 | `constring2` | SQL Server `127.0.0.1` / 库 `text` | 备用连接（当前未使用） |
 
 需要切换环境时，直接修改 `Form1.cs` 中对应常量即可。
